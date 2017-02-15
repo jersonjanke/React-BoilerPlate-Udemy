@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './components/app';
-ReactDOM.render(
-    <App />
-  , document.querySelector('.container'));
+import App, { AppDescription } from './components/app';
+
+console.log(AppDescription);
+
+ReactDOM.render( <App />, document.querySelector('.container') ); //select .container index.html
